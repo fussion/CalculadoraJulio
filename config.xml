@@ -26,8 +26,6 @@
     <preference name="KeyboardShrinksView" value="false" />
 	 <preference name="HideKeyboardFormAccessoryBar" value="true" />
 	  <application name="debugable" value="false" />
-      <preference name="StatusBarOverlaysWebView" value="false" />
-      <preference name="StatusBarBackgroundColor" value="#000000" />    
     
     <icon src="icon.png" />
     <icon gap:density="ldpi" gap:platform="android" src="res/icon/android/icon-36-ldpi.png" />
