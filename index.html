@@ -52,8 +52,7 @@
         $('.ui-header > *').css('margin-top', function (index, curValue) {
             return parseInt(curValue, 10) + 20 + 'px';
         });
-    }
-        
+    }   
     }
 
     </script>
@@ -255,6 +254,34 @@
             })
         }
     </script>
+
+
+<!--script footer-->
+<script>
+//$(function() {
+  //  $( "[data-role='navbar']" ).navbar();
+    //$( "[data-role='header'], [data-role='footer']" ).toolbar();
+//});
+// Update the contents of the toolbars
+//$( document ).on( "pagecontainershow", function() {
+    // Each of the four pages in this demo has a data-title attribute
+    // which value is equal to the text of the nav button
+    // For example, on first page: <div data-role="page" data-title="Info">
+  //  var current = $( ".ui-page-active" ).jqmData( "title" );
+    // Change the heading
+    //$( "[data-role='header'] h1" ).text( current );
+    // Remove active class from nav buttons
+    //$( "[data-role='navbar'] a.ui-btn-active" ).removeClass( "ui-btn-active" );
+    // Add active class to current nav button
+//    $( "[data-role='navbar'] a" ).each(function() {
+  //      if ( $( this ).text() === current ) {
+    //        $( this ).addClass( "ui-btn-active" );
+      //  }
+    //});
+//});
+</script>
+<!-- fin script footer-->
+
     <style>
         #input.author
         { 
@@ -264,7 +291,7 @@
             background-image: url(images/user.gif); 
             background-repeat: no-repeat; 
         }
-		
+
 		@media only screen 
 and (max-width : 320px) {
 	.pop2 {
@@ -281,20 +308,20 @@ and (orientation : portrait){
 }
 }
 		.pop2 {
-			
+
 			background-color: #008AC4 !important;
 			text-shadow:none !important;
 			color:white !important;
 			}
-		
-		
-		
+
+
+
     </style>
     
     <script>
     $( document ).ready(function() {
 
-		
+
          var name = window.localStorage.getItem("name");
         if(name!=null)
         {
@@ -369,8 +396,8 @@ and (orientation : portrait){
 		color: #FFFFFF;
 		padding: 2px 2px;
 			}
-			
-			
+
+
     </style>
 </head>
 
@@ -385,7 +412,7 @@ and (orientation : portrait){
         <div data-role="content">
             <!-- data-inline="true" en todos los botones que se quiera es para colocar los botones horizaontales -->
 
-			
+
                                        
                    <div> 
                     <div id="logo_image"> 
@@ -413,7 +440,7 @@ and (orientation : portrait){
        
         </div>
         
-        <div data-role="footer" data-position="fixed" >
+        <div data-role="footer" data-position="fixed">
 		<div data-role="navbar">
 			<ul>
 				<li><a href="#S_H"  data-transition="slide"><div class="ui_sokal"></div> S-H</a></li>
@@ -442,7 +469,7 @@ and (orientation : portrait){
         <!--         contenido                 -->
         <div data-role="content">
             <!-- data-inline="true" en todos los botones que se quiera es para colocar los botones horizaontales -->
-		
+
         	<div data-role="collapsible" >
                     <h4>Hoja de Cálculo</h4>
                     <p style="color:#B40A0A">El cálculo de riesgo debe realizarse siempre en el paciente con diagnostico de novo, no aplica para pacientes previamente tratados.
@@ -534,9 +561,9 @@ and (orientation : portrait){
         </div>
         <!--         pie de pagina 
                         -->
-      <div data-role="footer" data-position="fixed">
+      <div data-role="footer">
         <div data-role="navbar">
-			
+
             <ul>
 				<li><a href="#S_H" class="ui-btn-active" data-transition="slide"><div class="ui_sokal"></div> S-H</a></li>
 				<li><a href="#eutos" data-transition="slide"><div class="ui_eutos" ></div> Eutos</a></li>
@@ -612,9 +639,9 @@ and (orientation : portrait){
                     </div>
         </div>
         <!--         pie de pagina                 -->
-       <div data-role="footer" data-position="fixed">
+       <div data-role="footer">
         <div data-role="navbar">
-			
+
            <ul>
 				<li><a href="#S_H" data-transition="slide"><div class="ui_sokal"></div> S-H</a></li>
 				<li><a href="#eutos"class="ui-btn-active" data-transition="slide"><div class="ui_eutos"></div> Eutos</a></li>
@@ -662,7 +689,7 @@ and (orientation : portrait){
          </form>   
         </div>
         <!--         pie de pagina                 -->
-        <div data-role="footer" data-position="fixed">
+        <div data-role="footer">
          <div data-role="navbar">
 			  <ul>
 				<li><a href="#S_H" data-transition="slide"><div class="ui_sokal"></div> S-H</a></li>
@@ -984,7 +1011,7 @@ TKIs have priority. In patients who progress to AP or BP during TKI therapy, the
 			 <ul>
 				<li><a href="#S_H" data-transition="slide"><div class="ui_sokal"></div> S-H</a></li>
 				<li><a href="#eutos" data-transition="slide"><div class="ui_eutos"></div> Eutos</a></li>
-                <li><a href="#resultados" data-transition="slide"><div class="ui_resultado"></div>Resultado</a></li>
+                <li><a href="#resultados" data-transition="slide"><div class="ui_resultado"></div>Resultados</a></li>
                 <li><a href="#tablas" class="ui-btn-active" data-transition="slide"><div class="ui_info"></div>Tablas</a></li>
 			</ul>
 		</div>
