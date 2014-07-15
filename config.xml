@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.gatolocostudios.lmcal" version="002" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>LMC|CAL</name>
+<widget id="com.gatolocostudios.lmcal" version="2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Calculadora LMC</name>
     <description>
         Esta aplicación realiza los cálculos de riesgo en 3 diferentes escalas, definiendo la posibilidad de logar los objetivos del tratamiento y contiene además algunos de los datos mas usados en la terapia de Leucemia Mieloide Crónica
     </description>
